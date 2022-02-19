@@ -39,7 +39,7 @@ jobs:
 
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
-      with:        
+      with:
 
         // Remember the secrets we embedded? this is how we access them
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
