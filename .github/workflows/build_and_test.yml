@@ -40,10 +40,6 @@ jobs:
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
       with:        
-
-        // Remember the secrets we embedded? this is how we access them
-        aws_access_key: one
-        aws_secret_key: two
             
         // Replace the values here with your names you submitted in one of 
         // The previous sections
